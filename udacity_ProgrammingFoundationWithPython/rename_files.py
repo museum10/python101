@@ -5,6 +5,10 @@ def rename_files():
     saved_path = os.getcwd()
     print("사용 디렉토리는"+ saved_path)
     os.chdir(r"/Users/dusskapark/Documents/workspace/python101/udacity_ProgrammingFoundationWithPython/prank")
+    #디랙토리 변
+    saved_path = os.getcwd()
+    print("변경된 디렉토리는"+ saved_path)
+
     #(2)for - loop 파일명을 모두 수정하자. 
     for file_name in file_list:
         print("Old Name - "+file_name)
